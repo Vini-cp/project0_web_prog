@@ -1,0 +1,56 @@
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  align-content: center;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("back_1.jpg");
+
+  /* Full height */
+  height: 175%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  font-size: 20px;
+  color: darkblue;
+  margin: 20px;
+}
+
+ol {
+  list-style-type: upper-roman;
+  font-size: 23px;
+  color: black;
+  margin: 20px;
+ }
+ 
+.grid {
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+  
